@@ -81,8 +81,7 @@ a:hover {
 
 button {
     background-color: #0060B6;
-    color: midnightblue;
-    border-color:#EC9131;   
+    color: midnightblue;   
     
     padding: 1em 0em;
 }
@@ -141,4 +140,39 @@ button a:hover {
 
 .subbody-con div p {
     font-size: 20px;
+}
+
+
+
+.footer-con {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 300px;
+    width: auto;
+}
+
+.footer {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+
+    background-color:#6f0011;
+    height: 180px;
+    width: 900px;
+}
+
+.footer div {
+    padding:;
+    border:;
+    margin:20px;
+}
+
+.footer .card {
+    color:#EC9131;
+}
+
+.footer .button button {
+    padding: 10px 30px;
 }

@@ -13,11 +13,8 @@ body {
     justify-content: space-between;
     align-items: center;
     
-    padding:10px;
-    border:;
-    margin:;
-
-    background-color:#571A1A;
+    padding:20px;
+    background-color:#6f0011;
 }
 
 .header {
@@ -25,6 +22,12 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
+}
+
+.links {
+    font-size:15px;
+
 }
 
 .links ul {
@@ -32,6 +35,10 @@ body {
     list-style-type: none;
     text-decoration: none;
     gap: 4px;
+}
+
+.links ul p {
+    font-size:x-large;
 }
 
 a {
@@ -46,7 +53,7 @@ a:hover {
 }
 
 .subheader-con {
-    background-color:#571A1A;
+    background-color:#6f0011;
 
     padding: 60px;
 
@@ -61,6 +68,12 @@ a:hover {
     color:#EC9131;
 }
 
+.subheader-con .left p {
+    width: 700px;
+    height:auto;
+    color:#ab4a3a;
+}
+
 .image {
     height:300px;
     width:auto;
@@ -69,10 +82,63 @@ a:hover {
 button {
     background-color: #0060B6;
     color: midnightblue;
-    border-color:#EC9131;
-    padding: 1em 3em;    
+    border-color:#EC9131;   
+    
+    padding: 1em 0em;
 }
 
 button:hover {
-    background-color: #00A0C6
+    background-color: #00A0C6;
+}
+
+button a {
+    padding: 1em 3em;
+    color: midnightblue;
+}
+
+button a:hover {
+    padding: 1em 3em;
+    color: midnightblue;
+}
+
+
+
+.body-con .body-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.body-content p {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+
+.subbody-con {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #9d807e;
+    padding: 60px;
+    margin: 30px 0px;
+    height: auto;
+    width: auto;
+}
+
+.subbody-con .speaker {
+    align-self: flex-end;
+    margin-right: 80px;
+    font-weight: bold;
+}
+
+.subbody-con div p {
+    font-size: 20px;
 }
